@@ -13,54 +13,122 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'League Spartan', sans-serif;
-  background-color: var(--white);
+  
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px; 
+}
+
+/* Top section */
+
+.top__container {
+  display: flex;
+  justify-content: space-between; 
+  
+}
+
+.datainfo h1 {
+  width: 255px;
+  font-weight: 900;
+  margin-bottom: 15px;
+  color: var(--verydark-Magenta);
+  font-size: 2rem;
+}
+
+.datainfo p {
+  width: 410px;
+  margin-bottom: 70px;
+  line-height: 20px;
+  color: var(--darkGrayish-Magenta);
+  font-weight: bold;
+}
+
+.stars-three .star--container {
+  background-color: var(--lightGrayish-Magenta);
+  padding: 10px 30px 10px 60px;
+  
+}
+
+.star--container {
+  background-image: url(/images/icon-star.svg);
+  background-position: center;
+  background-repeat: space;
+  background-repeat: repeat-x;
+  color: var(--verydark-Magenta);
+  font-weight: 700;
+  margin-bottom: 16px;
+  border-radius: 5px;
+  width: auto;
+  align-self: flex-end;
+}
+
+.star--container p {
+  font-size: 12px;
+  background-color: var(--lightGrayish-Magenta);
+  color: var(--darkGrayish-Magenta);
+  width: fit-content;
 }
 
 
+/* Top section */
 
+/* Bottom section */
 
+.bottom__container  {
+  display: grid;
+  grid-template-columns: repeat(3, 320px);
+  grid-template-rows: 200px;
+  gap: 30px;
+  margin-bottom: 30px;
+}
 
+.bcontainer {
+  padding: 30px;
+  color: var(--white);
+  background-color: var(--verydark-Magenta);
+  border-radius: 5px;
+  width: 320px;
+  height: 200px;
+} 
 
+.secondbox {
+  margin-top: 20px;
+}
 
+.thirdbox {
+  margin-top: 35px;
+}
 
+.bcontainer img {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  border: none;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
 
+.header-info {
+  display: flex;
+  font-size: 0.8rem;
+}
 
+.header-info p {
+  color: var(--softpink); 
+  
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.bcontainer p {
+  line-height: 20px;
+  width: 240px;
+  font-size: 0.8rem;
+}
 
 
 
@@ -71,3 +139,41 @@
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+
+
+
+
+
+
+/* Bottom section end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
