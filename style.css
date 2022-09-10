@@ -8,6 +8,14 @@
   --darkGrayish-Magenta: hsl(303, 10%, 53%);
 }
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'League Spartan', sans-serif;
+  background-color: var(--white);
+}
+
 
 
 
