@@ -1,0 +1,65 @@
+@import url(https://fonts.google.com/specimen/League+Spartan);
+
+:root {
+  --verydark-Magenta: hsl(300, 43%, 22%);
+  --softpink: hsl(333, 80%, 67%);
+  --white: hsl(0, 0%, 100%);
+  --lightGrayish-Magenta: hsl(300, 24%, 96%);
+  --darkGrayish-Magenta: hsl(303, 10%, 53%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
