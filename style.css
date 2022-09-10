@@ -51,30 +51,52 @@ body {
 
 .stars-three .star--container {
   background-color: var(--lightGrayish-Magenta);
-  padding: 10px 30px 10px 60px;
+  padding: 15px 0px 15px 35px;
   
 }
 
+.stars-three {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
 .star--container {
-  background-image: url(/images/icon-star.svg);
-  background-position: center;
-  background-repeat: space;
-  background-repeat: repeat-x;
   color: var(--verydark-Magenta);
   font-weight: 700;
+  margin-top: 10px;
   margin-bottom: 16px;
   border-radius: 5px;
-  width: auto;
-  align-self: flex-end;
+  width: 400px;
+  display: flex;
 }
 
 .star--container p {
   font-size: 12px;
+  font-weight: bolder;
   background-color: var(--lightGrayish-Magenta);
-  color: var(--darkGrayish-Magenta);
-  width: fit-content;
+  color: hsl(300, 43%, 22%);
+  width: 200px;
+}
+.star--container img {
+  margin-right: 5px;
+  height: 15px;
+  width: 15px;
+  
 }
 
+.firststar {
+  margin-right: 80px;
+}
+
+.secondstar {
+  margin-right: 40px;
+}
+
+.star--container .backstar {
+  margin-right: 30px;
+}
 
 /* Top section */
 
@@ -139,12 +161,6 @@ body {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-
-
-
-
-
-
 
 /* Bottom section end */
 
