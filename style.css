@@ -146,9 +146,7 @@ body {
   margin-right: 20px;
   margin-bottom: 20px;
 }
-.backstar {
-  
-}
+
 
 .header-info {
   display: flex;
@@ -165,8 +163,6 @@ body {
   width: 240px;
   font-size: 0.8rem;
 }
-
-
 
 .attribution {
   font-size: 11px;
@@ -287,7 +283,7 @@ body {
 
 }
 
-@media (max-width: 555px) {
+@media (max-width: 799px) {
    
   body {
     min-height: 100vh;
@@ -296,6 +292,8 @@ body {
     align-items: center;
     justify-content: center;
     font-size: 15px; 
+    background-image: url(/images/bg-pattern-bottom-desktop.svg);
+    background-size: 0; 
   }
 
   .top__container {
